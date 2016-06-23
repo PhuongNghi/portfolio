@@ -1,0 +1,108 @@
+body{
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, #111423); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, #111423); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, #111423); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, #111423); /* Standard syntax */
+  color: white;
+  min-height: 100vh;
+}
+
+#app{
+  color: black;
+  top: 50px;
+  position: relative;;
+}
+
+// a.link-test{
+//   position: relative;
+//   -webkit-transition: opacity 0.3s;
+//   -moz-transition: opacity 0.3s;
+//   -ms-transition: opacity 0.3s;
+//   -o-transition: opacity 0.3s;
+//   transition: opacity 0.3s;
+//   color: white;
+//   text-decoration: none;
+//   font-size: 5rem;
+//   opacity: 0;
+//   cursor: pointer;
+//
+//   &:hover{
+//     color: white;
+//
+//   }
+// }
+
+.intro{
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  position: relative;
+  top: 20px;
+  opacity: 0;
+  text-align: center;
+
+  .name{
+    font-size: 2.5rem;
+  }
+}
+
+a.link{
+  position: relative;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  &:hover{
+    color: white;
+  }
+}
+
+
+.transition-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: white;
+  cursor: pointer;
+}
+
+.dialogCircle{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: solid 1px white;
+  display: flex;
+  left: -6px;
+  top: -6px;
+  position: relative;
+  display: none;
+}
+
+.circle{
+  //background-color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: solid 1px white;
+  position: relative;
+
+}
+
+.foxy{
+  cursor: pointer;
+  @media(min-width: 1024px){
+    position: relative;
+    left: 100px;
+  }
+}

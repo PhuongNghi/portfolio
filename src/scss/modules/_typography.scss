@@ -1,0 +1,50 @@
+@font-face {
+  font-family:'Font-Name';
+  src:url('../fonts/font-name.eot');
+  src:url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/font-name.woff') format('woff'),
+    url('../fonts/font-name.ttf') format('truetype'),
+    url('../fonts/font-name.svg#font-name') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+  font-family:"Galano Grotesque W00 Regular";
+  src:url("../fonts/Galano/a3818f13-4a9f-4641-acec-049f29f1d6f3.eot?#iefix");
+  src:url("Fonts/a3818f13-4a9f-4641-acec-049f29f1d6f3.eot?#iefix") format("eot"),url("../fonts/Galano/ffeda1c1-badb-47fc-b7b2-7da67113f119.woff2") format("woff2"),url("../fonts/Galano/bb2949bd-be82-4e49-a705-b31aecc77f80.woff") format("woff"),url("../fonts/Galano/f11cd94f-be7e-4f51-b9ab-6f5c333bf402.ttf") format("truetype"),url("../fonts/Galano/57daf891-ac10-48f2-9ff5-d609f4f518b4.svg#57daf891-ac10-48f2-9ff5-d609f4f518b4") format("svg");
+}
+
+.galano-regular{
+  font-family: "Galano Grotesque W00 Regular";
+}
+
+@font-face{
+font-family:"Galano Grotesque W00 Medium";
+src:url("../fonts/Galano/5a7b2ca8-8aa3-4936-8459-6fe12d2cfbd6.eot?#iefix");
+src:url("../fonts/Galano/5a7b2ca8-8aa3-4936-8459-6fe12d2cfbd6.eot?#iefix") format("eot"),url("../fonts/Galano/38d94dea-7da7-4a12-b561-1e8b981a61ac.woff2") format("woff2"),url("../fonts/Galano/ae17c774-7828-49a9-abc6-b8cfaf6b99a5.woff") format("woff"),url("../fonts/Galano/4bdced92-fdc0-4483-9cdc-d7fa9fe0d8af.ttf") format("truetype"),url("../fonts/Galano/348ea517-3081-4071-9cc9-0a552a6a0530.svg#348ea517-3081-4071-9cc9-0a552a6a0530") format("svg");
+}
+
+.galano-medium{
+  font-family: "Galano Grotesque W00 Medium";
+}
+
+@font-face{
+  font-family:"Galano Grotesque W00 SemiBold";
+  src:url("../fonts/Galano/6a4adaff-3e5f-448f-923e-9dc8aacae9a9.eot?#iefix");
+  src:url("../fonts/Galano/6a4adaff-3e5f-448f-923e-9dc8aacae9a9.eot?#iefix") format("eot"),url("../fonts/Galano/61163eda-7b16-4c14-82e5-cedb885afea7.woff2") format("woff2"),url("../fonts/Galano/f6805913-d8a9-43fd-9dd1-18161300f0da.woff") format("woff"),url("../fonts/Galano/d800f19f-4650-4105-bcfa-8ac0d8a86445.ttf") format("truetype"),url("../fonts/Galano/feb887d6-6333-48e2-9012-78ca033faae5.svg#feb887d6-6333-48e2-9012-78ca033faae5") format("svg");
+}
+
+.galano-semibold{
+  font-family: "Galano Grotesque W00 SemiBold";
+}
+
+@font-face{
+  font-family:"Galano Grotesque W00 Bold";
+  src:url("../fonts/Galano/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix");
+  src:url("../fonts/Galano/13a425f6-0a04-4ef9-a0ee-1f9c8b16ec1b.eot?#iefix") format("eot"),url("../fonts/Galano/50739fd4-8655-482c-8861-eabf3b8dcca9.woff2") format("woff2"),url("../fonts/Galano/27faa970-06ad-413a-ac10-95c42544d00d.woff") format("woff"),url("../fonts/Galano/a3c14aa7-edc3-4e79-8279-5824b3534bd3.ttf") format("truetype"),url("../fonts/Galano/6f2eda25-3276-4d01-a2e7-50d20c645064.svg#6f2eda25-3276-4d01-a2e7-50d20c645064") format("svg");
+}
+
+.galano-bold{
+  font-family: "Galano Grotesque W00 Bold";
+}
